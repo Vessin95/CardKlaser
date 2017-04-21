@@ -1,0 +1,23 @@
+
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+
+<head>
+<title>Title</title>
+</head>
+
+<body>
+
+  <header />
+
+  <h1>Strona główna Witamy w klaserze</h1>
+  <h2 th:text="${msg}">domyślne coś</h2>
+  <h2 th:text="${data}">domyślne coś2</h2>
+  <h2 th:text="#{bbb}">domyślne coś3</h2>
+  <h3 th:text="${{data}}">data</h3>
+
+  <footer />
+
+</body>
+
+</html>

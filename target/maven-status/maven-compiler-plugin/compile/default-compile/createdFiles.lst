@@ -1,0 +1,10 @@
+com/wojciech/janowski/klaser/Attribute.class
+com/wojciech/janowski/SpringWebApplicationInitializer.class
+com/wojciech/janowski/klaser/Card.class
+com/wojciech/janowski/SpringBusinessConfig.class
+com/wojciech/janowski/klaser/MonsterType.class
+com/wojciech/janowski/klaser/NoSuchCardException.class
+com/wojciech/janowski/web/controller/KlaserController.class
+com/wojciech/janowski/web/SpringWebConfig.class
+com/wojciech/janowski/klaser/HelloServlet.class
+com/wojciech/janowski/klaser/CardType.class
