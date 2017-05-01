@@ -4,23 +4,44 @@ import java.math.BigDecimal;
 import java.util.Date;
 
 public class Card {
-    private long catalogNumber;
+    private Long catalogNumber;
     private String name;
     private String description;
-    private long level;
-    private long attack;
-    private long defense;
+    private Long level;
+    private Long attack;
+    private Long defense;
     private Attribute attribute;
     private MonsterType monsterType;
     private CardType cardType;
     private BigDecimal purchasePrice;
     private Date purchaseDate;
+    private Status status;
 
-    public long getCatalogNumber() {
+    public static Card produceCard(Long catalogNumber, String name, String description, Long level, Long attack, Long defense,
+                                   Attribute attribute, MonsterType monsterType, CardType cardType, BigDecimal purchasePrice,
+                                   Date purchaseDate, Status status) {
+        Card card = new Card();
+        card.catalogNumber = catalogNumber;
+        card.name = name;
+        card.description = description;
+        card.level = level;
+        card.attack = attack;
+        card.defense = defense;
+        card.attribute = attribute;
+        card.monsterType = monsterType;
+        card.cardType = cardType;
+        card.purchasePrice = purchasePrice;
+        card.purchaseDate = purchaseDate;
+        card.status = status;
+        return card;
+    }
+
+
+    public Long getCatalogNumber() {
         return catalogNumber;
     }
 
-    public void setCatalogNumber(long catalogNumber) {
+    public void setCatalogNumber(Long catalogNumber) {
         this.catalogNumber = catalogNumber;
     }
 
@@ -40,27 +61,27 @@ public class Card {
         this.description = description;
     }
 
-    public long getLevel() {
+    public Long getLevel() {
         return level;
     }
 
-    public void setLevel(long level) {
+    public void setLevel(Long level) {
         this.level = level;
     }
 
-    public long getAttack() {
+    public Long getAttack() {
         return attack;
     }
 
-    public void setAttack(long attack) {
+    public void setAttack(Long attack) {
         this.attack = attack;
     }
 
-    public long getDefense() {
+    public Long getDefense() {
         return defense;
     }
 
-    public void setDefense(long defense) {
+    public void setDefense(Long defense) {
         this.defense = defense;
     }
 
@@ -104,6 +125,14 @@ public class Card {
         this.purchaseDate = purchaseDate;
     }
 
+    public Status getStatus() {
+        return status;
+    }
+
+    public void setStatus(Status status) {
+        this.status = status;
+    }
+
     @Override
     public boolean equals(Object o) {
         if (this == o) return true;
@@ -111,11 +140,53 @@ public class Card {
 
         Card card = (Card) o;
 
-        return catalogNumber == card.catalogNumber;
+        if (catalogNumber != card.catalogNumber) return false;
+        if (level != card.level) return false;
+        if (attack != card.attack) return false;
+        if (defense != card.defense) return false;
+        if (name != null ? !name.equals(card.name) : card.name != null) return false;
+        if (description != null ? !description.equals(card.description) : card.description != null) return false;
+        if (attribute != card.attribute) return false;
+        if (monsterType != card.monsterType) return false;
+        if (cardType != card.cardType) return false;
+        if (purchasePrice != null ? !purchasePrice.equals(card.purchasePrice) : card.purchasePrice != null)
+            return false;
+        if (purchaseDate != null ? !purchaseDate.equals(card.purchaseDate) : card.purchaseDate != null) return false;
+        return status == card.status;
     }
 
     @Override
     public int hashCode() {
-        return (int) (catalogNumber ^ (catalogNumber >>> 32));
+        int result = (int) (catalogNumber ^ (catalogNumber >>> 32));
+        result = 31 * result + (name != null ? name.hashCode() : 0);
+        result = 31 * result + (description != null ? description.hashCode() : 0);
+        result = 31 * result + (int) (level ^ (level >>> 32));
+        result = 31 * result + (int) (attack ^ (attack >>> 32));
+        result = 31 * result + (int) (defense ^ (defense >>> 32));
+        result = 31 * result + (attribute != null ? attribute.hashCode() : 0);
+        result = 31 * result + (monsterType != null ? monsterType.hashCode() : 0);
+        result = 31 * result + (cardType != null ? cardType.hashCode() : 0);
+        result = 31 * result + (purchasePrice != null ? purchasePrice.hashCode() : 0);
+        result = 31 * result + (purchaseDate != null ? purchaseDate.hashCode() : 0);
+        result = 31 * result + (status != null ? status.hashCode() : 0);
+        return result;
+    }
+
+    @Override
+    public String toString() {
+        return "Card{" +
+                "catalogNumber=" + catalogNumber +
+                ", name='" + name + '\'' +
+                ", description='" + description + '\'' +
+                ", level=" + level +
+                ", attack=" + attack +
+                ", defense=" + defense +
+                ", attribute=" + attribute +
+                ", monsterType=" + monsterType +
+                ", cardType=" + cardType +
+                ", purchasePrice=" + purchasePrice +
+                ", purchaseDate=" + purchaseDate +
+                ", status=" + status +
+                '}';
     }
 }

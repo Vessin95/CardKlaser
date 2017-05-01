@@ -1,5 +1,6 @@
 package com.wojciech.janowski.web;
 
+import com.wojciech.janowski.web.controller.DateFormatter;
 import org.springframework.beans.BeansException;
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.ApplicationContextAware;
@@ -64,13 +65,13 @@ public class SpringWebConfig
     @Override
     public void addFormatters(final FormatterRegistry registry) {
         super.addFormatters(registry);
-//        registry.addFormatter(dateFormatter());
+        registry.addFormatter(dateFormatter());
     }
 
-//    @Bean
-//    public DateFormatter dateFormatter() {
-//        return new DateFormatter();
-//    }
+    @Bean
+    public DateFormatter dateFormatter() {
+        return new DateFormatter();
+    }
 
 
 

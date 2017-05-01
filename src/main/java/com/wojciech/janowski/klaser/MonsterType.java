@@ -6,5 +6,14 @@ public enum MonsterType {
     Fairy, Insect, Dinosaur, Reptile,
     Fish, Sea_Serpent, Aqua, Pyro,
     Thunder, Rock, Plant, Machine,
-    Psychic, Divine_Beast, Wyrm, Cyberse
+    Psychic, Divine_Beast, Wyrm, Cyberse;
+
+    public static final MonsterType[] ALL = {
+            Spellcaster, Dragon, Zombie, Warrior,
+            Beast_Warrior, Beast, Winged_Beast, Fiend,
+            Fairy, Insect, Dinosaur, Reptile,
+            Fish, Sea_Serpent, Aqua, Pyro,
+            Thunder, Rock, Plant, Machine,
+            Psychic, Divine_Beast, Wyrm, Cyberse
+    };
 }
