@@ -1,0 +1,41 @@
+<!DOCTYPE html >
+
+<html xmlns:th="http://www.thymeleaf.org">
+
+<head th:fragment="site-head">
+    <title th:text="#{title.application}">Klaser</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <link rel="stylesheet" type="text/css" media="all" href="../../css/klaser.css" th:href="@{/css/klaser.css}" />
+    <link rel="icon" href="../../images/icon.ico" th:href="@{/images/icon.ico}" />
+</head>
+
+<body>
+
+<header th:fragment="site-header">
+    <a href="index.html" th:href="@{/}"><img src="../../images/logo.png" th:src="@{/images/logo.png}"/> </a>
+    <a href="card.html" th:href="@{/cards/create}">Dodaj kartę</a>
+    <a href="cards.html" th:href="@{/cards}">Wszystkie karty</a>
+    <a href="tosell.html" th:href="@{/tosell}">Karty na sprzedaż</a>
+    <a href="duplicates.html" th:href="@{/duplicates}">Duplikaty</a>
+
+    <ul id="messages" th:with="notifyMessages=${session[T(com.wojciech.janowski.klaser.services.NotificationServiceImpl).NOTIFY_MSG_SESSION_KEY]}">
+        <li th:each="msg : ${notifyMessages}" th:text="${msg.text}"
+            th:class="${#strings.toLowerCase(msg.type)}">
+        </li>
+    </ul>
+</header>
+
+<div>
+    <h2 th:text="#{title.list}" style="display: inline;">Klaser monet</h2>
+    <img src="../../images/klaser.jpg" alt="Klaser logo" title="Klaser logo" th:src="@{/images/klaser.jpg}"
+         th:alt-title="#{title.application}" style="float: right;" />
+    <p> A tu jakis kontent, raczje sie nie pokaże </p>
+</div>
+
+<footer th:fragment="site-footer">
+    Wojciech Janowski <a href="https://github.com/kkoziol/sternik-week">Source code</a>
+    &copy; Sternik Klaser System, 2017
+</footer>
+
+</body>
+</html>

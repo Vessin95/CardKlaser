@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+
+<html xmlns:th="http://www.thymeleaf.org">
+
+<html lang="pl">
+<head th:replace="layout ::site-head">
+    <meta charset="UTF-8">
+    <title>Karty</title>
+    <link rel="stylesheet" type="text/css" media="all" href="../../css/klaser.css" th:href="@{/css/klaser.css}" />
+</head>
+<body>
+<header th:replace="layout :: site-header" />
+<div class="listaKart" th:unless="${#lists.isEmpty(cardsAll)}">
+    <table>
+        <thead>
+        <tr>
+            <th th:text="#{klaser.numerKatalogowy}">Numer Katalogowy</th>
+            <th th:text="#{klaser.nazwa}">Nazwa</th>
+            <th th:text="#{klaser.opis}">Opis</th>
+            <th th:text="#{klaser.poziom}">Poziom</th>
+            <th th:text="#{klaser.atak}">Atak</th>
+            <th th:text="#{klaser.obrona}">Obrona</th>
+            <th th:text="#{klaser.atrybut}">Atrybut</th>
+            <th th:text="#{klaser.typ.potwora}">Typ potwora</th>
+            <th th:text="#{klaser.typ.karty}">Typ karty</th>
+            <th th:text="#{klaser.cenaNabycia}">Cena nabycia</th>
+            <th th:text="#{klaser.dataNabycia}">Data nabycia</th>
+            <th th:text="#{klaser.status}">Status</th>
+            <th th:text="#{klaser.operacje}">Operacje</th>
+        </tr>
+        </thead>
+        <tr th:each="card : ${cardsAll}">
+            <form action="#" th:action="@{/cards}" th:object="${card}" method="post">
+            <td th:text="${card.catalogNumber}">Numer Katalogowy</td>
+            <td th:text="${card.name}">Nazwa</td>
+            <td th:text="${card.description}">Opis</td>
+            <td th:text="${card.level}">Poziom</td>
+            <td th:text="${card.attack}">Atak</td>
+            <td th:text="${card.defense}">Obrona</td>
+            <td th:text="${card.attribute}">Atrybut</td>
+            <td th:text="${card.monsterType}">Typ potwora</td>
+            <td th:text="${card.cardType}">Typ karty</td>
+            <td th:text="${card.purchasePrice}">Cena nabycia</td>
+            <td th:text="${#dates.format(card.purchaseDate, 'yyyy-MM-dd')}">Data Nabycia</td>
+            <td th:text="#{${'klaser.status.' + card.status}}">Status</td>
+            <td>
+                <button type="submit" name="remove" th:value="${card.catalogNumber}" th:text="#{klaser.remove}">Delete</button>
+                <a href="card.html" th:href="@{|/cards/${card.catalogNumber}|}" ><button type="button" th:text="#{klaser.edit}">Edit</button></a>
+            </td>
+            </form>
+        </tr>
+    </table>
+</div>
+<footer th:replace="layout :: site-footer" />
+</body>
+</html>

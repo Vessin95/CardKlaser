@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+
+<html xmlns:th="http://www.thymeleaf.org">
+
+<head th:replace="layout ::site-head">
+    <title>Klaser kart</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <link rel="stylesheet" type="text/css" media="all" href="../../css/klaser.css" th:href="@{/css/klaser.css}" />
+</head>
+
+<body>
+<header th:replace="layout :: site-header" />
+
+<div>
+
+    <form action="#" th:action="@{/cards}" th:object="${card}" method="post">
+
+        <fieldset>
+
+            <legend th:text="#{klaser.karta.dane}">Starter Data</legend>
+
+            <ul th:if="${#fields.hasErrors('*')}" class="errorlist">
+                <li th:each="err : ${#fields.errors('*')}" th:text="${err}">Input is incorrect</li>
+            </ul>
+
+            <div>
+                <label for="catalogNumber"> <span th:text="#{klaser.numerKatalogowy}">numer</span>
+                </label> <input type="text" th:field="*{catalogNumber}" th:errorclass="fieldError" />
+            </div>
+            <div>
+                <label for="name"> <span th:text="#{klaser.nazwa}">nazwa</span>
+                </label> <input type="text" th:field="*{name}" th:errorclass="fieldError" />
+                <span th:if="${#fields.hasErrors('name')}" th:errors="*{name}">Incorrect nominal</span>
+            </div>
+            <div>
+                <label for="description"> <span th:text="#{klaser.opis}">opis</span>
+                </label> <input type="text" th:field="*{description}" th:errorclass="fieldError" />
+            </div>
+            <div>
+                <label for="level"> <span th:text="#{klaser.poziom}">poziom</span>
+                </label> <input type="text" th:field="*{level}" th:errorclass="fieldError" />
+            </div>
+            <div>
+                <label for="attack"> <span th:text="#{klaser.atak}">atak</span>
+                </label> <input type="text" th:field="*{attack}" th:errorclass="fieldError" />
+            </div>
+            <div>
+                <label for="defense"> <span th:text="#{klaser.obrona}">obrona</span>
+                </label> <input type="text" th:field="*{defense}" th:errorclass="fieldError" />
+            </div>
+            <div>
+                <label for="attribute"> <span th:text="#{klaser.atrybut}">atrybut</span></label>
+                <select th:field="*{attribute}" th:errorclass="fieldError">
+                    <option th:each="at : ${attributeAll}" th:value="${at}" th:text="#{${'klaser.atrybut.' + at}}">Nowa</option>
+                </select>
+            </div>
+            <div>
+                <label for="monsterType"> <span th:text="#{klaser.typ.potwora}">typ potwora</span></label>
+                <select th:field="*{monsterType}" th:errorclass="fieldError">
+                    <option th:each="mt : ${monsterTypeAll}" th:value="${mt}" th:text="#{${'klaser.typ.potwora.' + mt}}">Nowa</option>
+                </select>
+            </div>
+            <div>
+                <label for="cardType"> <span th:text="#{klaser.typ.karty}">typ karty</span></label>
+                <select th:field="*{cardType}" th:errorclass="fieldError">
+                    <option th:each="ct : ${cardTypeAll}" th:value="${ct}" th:text="#{${'klaser.typ.karty.' + ct}}">Nowa</option>
+                </select>
+            </div>
+            <div>
+                <label for="purchasePrice"> <span th:text="#{klaser.cenaNabycia}">cenaNabycia</span>
+                </label> <input type="text" th:field="*{purchasePrice}" th:errorclass="fieldError" />
+            </div>
+            <div>
+                <label for="purchaseDate"> <span th:text="#{klaser.dataNabycia}">Date kup</span> (<span
+                        th:text="#{date.format}">YYYY/MM/DD</span>)
+                </label> <input type="text" th:field="*{purchaseDate}" th:errorclass="fieldError" />
+            </div>
+            <div>
+                <label for="status"> <span th:text="#{klaser.status}">status</span></label>
+                <select th:field="*{status}" th:errorclass="fieldError">
+                    <option th:each="st : ${statusAll}" th:value="${st}" th:text="#{${'klaser.status.' + st}}">Nowa</option>
+                </select>
+            </div>
+            <div class="submit">
+                <button th:if="*{catalogNumber}" type="submit" name="save" th:value="*{catalogNumber}" >Zapisz</button>
+
+
+                <button th:unless="*{catalogNumber}" type="submit" name="create" >Zapisz</button>
+
+
+                <a href="cards.html" th:href="@{/cards}" ><button type="button">Cancel</button></a>
+            </div>
+
+        </fieldset>
+
+    </form>
+
+</div>
+<footer th:replace="layout :: site-footer" />
+</body>
+</html>
