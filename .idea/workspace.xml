@@ -2,44 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="aaf52419-9c48-4ff3-8646-629d5ccea0cb" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/images/coins.ico" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/images/klaser.jpg" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/wojciech/janowski/klaser/Attribute.class" afterPath="$PROJECT_DIR$/target/classes/com/wojciech/janowski/klaser/Attribute.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/wojciech/janowski/klaser/Card.class" afterPath="$PROJECT_DIR$/target/classes/com/wojciech/janowski/klaser/Card.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/wojciech/janowski/klaser/CardType.class" afterPath="$PROJECT_DIR$/target/classes/com/wojciech/janowski/klaser/CardType.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/wojciech/janowski/klaser/MonsterType.class" afterPath="$PROJECT_DIR$/target/classes/com/wojciech/janowski/klaser/MonsterType.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/wojciech/janowski/klaser/NoSuchCardException.class" afterPath="$PROJECT_DIR$/target/classes/com/wojciech/janowski/klaser/NoSuchCardException.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/wojciech/janowski/web/SpringWebConfig.class" afterPath="$PROJECT_DIR$/target/classes/com/wojciech/janowski/web/SpringWebConfig.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/wojciech/janowski/web/controller/KlaserController.class" afterPath="$PROJECT_DIR$/target/classes/com/wojciech/janowski/web/controller/KlaserController.class" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/projekt-klaser/images/coins.ico" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/projekt-klaser/images/klaser.jpg" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/projekt-klaser.war" afterPath="$PROJECT_DIR$/target/projekt-klaser.war" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/projekt-klaser/WEB-INF/classes/com/wojciech/janowski/klaser/Attribute.class" afterPath="$PROJECT_DIR$/target/projekt-klaser/WEB-INF/classes/com/wojciech/janowski/klaser/Attribute.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/projekt-klaser/WEB-INF/classes/com/wojciech/janowski/klaser/Card.class" afterPath="$PROJECT_DIR$/target/projekt-klaser/WEB-INF/classes/com/wojciech/janowski/klaser/Card.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/projekt-klaser/WEB-INF/classes/com/wojciech/janowski/klaser/CardType.class" afterPath="$PROJECT_DIR$/target/projekt-klaser/WEB-INF/classes/com/wojciech/janowski/klaser/CardType.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/projekt-klaser/WEB-INF/classes/com/wojciech/janowski/klaser/MonsterType.class" afterPath="$PROJECT_DIR$/target/projekt-klaser/WEB-INF/classes/com/wojciech/janowski/klaser/MonsterType.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/projekt-klaser/WEB-INF/classes/com/wojciech/janowski/klaser/NoSuchCardException.class" afterPath="$PROJECT_DIR$/target/projekt-klaser/WEB-INF/classes/com/wojciech/janowski/klaser/NoSuchCardException.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/projekt-klaser/WEB-INF/classes/com/wojciech/janowski/web/SpringWebConfig.class" afterPath="$PROJECT_DIR$/target/projekt-klaser/WEB-INF/classes/com/wojciech/janowski/web/SpringWebConfig.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/projekt-klaser/WEB-INF/classes/com/wojciech/janowski/web/controller/KlaserController.class" afterPath="$PROJECT_DIR$/target/projekt-klaser/WEB-INF/classes/com/wojciech/janowski/web/controller/KlaserController.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/wojciech/janowski/klaser/Attribute.java" afterPath="$PROJECT_DIR$/src/main/java/com/wojciech/janowski/klaser/Attribute.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/wojciech/janowski/klaser/Card.java" afterPath="$PROJECT_DIR$/src/main/java/com/wojciech/janowski/klaser/Card.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/wojciech/janowski/klaser/CardType.java" afterPath="$PROJECT_DIR$/src/main/java/com/wojciech/janowski/klaser/CardType.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/wojciech/janowski/klaser/MonsterType.java" afterPath="$PROJECT_DIR$/src/main/java/com/wojciech/janowski/klaser/MonsterType.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/wojciech/janowski/klaser/NoSuchCardException.java" afterPath="$PROJECT_DIR$/src/main/java/com/wojciech/janowski/klaser/NoSuchCardException.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/wojciech/janowski/web/SpringWebConfig.java" afterPath="$PROJECT_DIR$/src/main/java/com/wojciech/janowski/web/SpringWebConfig.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/wojciech/janowski/web/controller/KlaserController.java" afterPath="$PROJECT_DIR$/src/main/java/com/wojciech/janowski/web/controller/KlaserController.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/messages.properties" afterPath="$PROJECT_DIR$/src/main/resources/messages.properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/messages_en.properties" afterPath="$PROJECT_DIR$/src/main/resources/messages_en.properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/templates/index.html" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/templates/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/css/klaser.css" afterPath="$PROJECT_DIR$/src/main/webapp/css/klaser.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/messages.properties" afterPath="$PROJECT_DIR$/target/classes/messages.properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/messages_en.properties" afterPath="$PROJECT_DIR$/target/classes/messages_en.properties" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ProjektKlaser.iml" afterPath="$PROJECT_DIR$/ProjektKlaser.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/maven-archiver/pom.properties" afterPath="$PROJECT_DIR$/target/maven-archiver/pom.properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/projekt-klaser/WEB-INF/classes/messages.properties" afterPath="$PROJECT_DIR$/target/projekt-klaser/WEB-INF/classes/messages.properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/projekt-klaser/WEB-INF/classes/messages_en.properties" afterPath="$PROJECT_DIR$/target/projekt-klaser/WEB-INF/classes/messages_en.properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/projekt-klaser/WEB-INF/templates/index.html" afterPath="$PROJECT_DIR$/target/projekt-klaser/WEB-INF/templates/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/projekt-klaser/css/klaser.css" afterPath="$PROJECT_DIR$/target/projekt-klaser/css/klaser.css" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -64,68 +33,12 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="layout.html" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/templates/layout.html">
+      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="18">
-              <caret line="10" column="0" lean-forward="false" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
-              <folding>
-                <element signature="n#style#0;n#h2#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#img#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="e#1612#1618#0" expanded="true" />
-                <marker date="1493663201204" expanded="true" signature="115:132" ph="Klaser Monet" />
-                <marker date="1493663201204" expanded="true" signature="1188:1198" ph="Lista Monet" />
-                <marker date="1493663201204" expanded="true" signature="1377:1394" ph="Klaser Monet" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="CardsRepositoryImpl.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/wojciech/janowski/klaser/repositories/CardsRepositoryImpl.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="414">
-              <caret line="31" column="13" lean-forward="false" selection-start-line="31" selection-start-column="13" selection-end-line="31" selection-end-column="13" />
+            <state relative-caret-position="613">
+              <caret line="122" column="27" lean-forward="false" selection-start-line="122" selection-start-column="27" selection-end-line="122" selection-end-column="27" />
               <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="messages.properties" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/messages.properties">
-          <provider editor-type-id="ResourceBundle">
-            <state />
-          </provider>
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="450">
-              <caret line="25" column="36" lean-forward="false" selection-start-line="25" selection-start-column="36" selection-end-line="25" selection-end-column="36" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="cards.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/templates/cards.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="702">
-              <caret line="39" column="48" lean-forward="false" selection-start-line="39" selection-start-column="48" selection-end-line="39" selection-end-column="48" />
-              <folding>
-                <marker date="1493661009935" expanded="true" signature="477:499" ph="Numer katalogowy" />
-                <marker date="1493661009935" expanded="true" signature="551:563" ph="Nazwa" />
-                <marker date="1493661009935" expanded="true" signature="604:615" ph="Opis" />
-                <marker date="1493661009935" expanded="true" signature="655:668" ph="Poziom" />
-                <marker date="1493661009935" expanded="true" signature="710:721" ph="Atak" />
-                <marker date="1493661009935" expanded="true" signature="761:774" ph="Obrona" />
-                <marker date="1493661009935" expanded="true" signature="816:830" ph="Atrybut" />
-                <marker date="1493661009935" expanded="true" signature="873:891" ph="Typ potwora" />
-                <marker date="1493661009935" expanded="true" signature="938:954" ph="Typ karty" />
-                <marker date="1493661009935" expanded="true" signature="999:1017" ph="Cena nabycia" />
-                <marker date="1493661009935" expanded="true" signature="1065:1083" ph="Data nabycia" />
-                <marker date="1493661009935" expanded="true" signature="1131:1144" ph="Status" />
-                <marker date="1493661009935" expanded="true" signature="1186:1201" ph="Operacje" />
-                <marker date="1493661009935" expanded="true" signature="2236:2249" ph="Usuń" />
-                <marker date="1493661009935" expanded="true" signature="2382:2393" ph="Edytuj" />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -164,7 +77,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/java/com/wojciech/janowski/Attribute.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/wojciech/janowski/SpringWebApplicationInitializer.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/wojciech/janowski/SpringBusinessConfig.java" />
@@ -198,6 +110,7 @@
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/templates/tosell.html" />
         <option value="$PROJECT_DIR$/src/main/java/com/wojciech/janowski/klaser/repositories/CardsRepositoryImpl.java" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/templates/layout.html" />
+        <option value="$PROJECT_DIR$/pom.xml" />
       </list>
     </option>
   </component>
@@ -751,16 +664,16 @@
       <workItem from="1493252839592" duration="686000" />
       <workItem from="1493274819743" duration="8000" />
       <workItem from="1493657372232" duration="5843000" />
-      <workItem from="1493663587662" duration="324000" />
+      <workItem from="1493663587662" duration="1796000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="34398000" />
+    <option name="totallyTimeSpent" value="35870000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="65" y="24" width="1535" height="876" extended-state="6" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Nl-Palette" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -780,10 +693,10 @@
       <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32948717" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32904884" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.35861182" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24983211" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.35861182" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24983211" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="true" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -851,8 +764,8 @@
         <state relative-caret-position="198">
           <caret line="22" column="32" lean-forward="true" selection-start-line="22" selection-start-column="32" selection-end-line="22" selection-end-column="32" />
           <folding>
-            <element signature="e#1826#1827#0" expanded="true" />
-            <element signature="e#1861#1862#0" expanded="true" />
+            <element signature="e#1826#1827#0" expanded="false" />
+            <element signature="e#1861#1862#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -861,6 +774,24 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1493661009931" expanded="true" signature="520:537" ph="Dane karty" />
+            <marker date="1493661009931" expanded="true" signature="830:852" ph="Numer katalogowy" />
+            <marker date="1493661009931" expanded="true" signature="1059:1071" ph="Nazwa" />
+            <marker date="1493661009931" expanded="true" signature="1380:1391" ph="Opis" />
+            <marker date="1493661009931" expanded="true" signature="1596:1609" ph="Poziom" />
+            <marker date="1493661009931" expanded="true" signature="1811:1822" ph="Atak" />
+            <marker date="1493661009931" expanded="true" signature="2024:2031" ph="currency" />
+            <marker date="1493661009931" expanded="true" signature="2024:2037" ph="Obrona" />
+            <marker date="1493661009931" expanded="true" signature="2244:2258" ph="Atrybut" />
+            <marker date="1493661009931" expanded="true" signature="2611:2629" ph="Typ potwora" />
+            <marker date="1493661009931" expanded="true" signature="2991:3007" ph="Typ karty" />
+            <marker date="1493661009931" expanded="true" signature="3364:3381" ph="Cena nabycia" />
+            <marker date="1493661009931" expanded="true" signature="3364:3382" ph="Cena nabycia" />
+            <marker date="1493661009931" expanded="true" signature="3603:3621" ph="Data nabycia" />
+            <marker date="1493661009931" expanded="true" signature="3682:3693" ph="yyyy-MM-dd" />
+            <marker date="1493661009931" expanded="true" signature="3907:3920" ph="Status" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -903,8 +834,8 @@
         <state relative-caret-position="450">
           <caret line="44" column="45" lean-forward="true" selection-start-line="44" selection-start-column="45" selection-end-line="44" selection-end-column="45" />
           <folding>
-            <element signature="e#1826#1827#0" expanded="true" />
-            <element signature="e#1861#1862#0" expanded="true" />
+            <element signature="e#1826#1827#0" expanded="false" />
+            <element signature="e#1861#1862#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -913,6 +844,24 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1493661009931" expanded="true" signature="520:537" ph="Dane karty" />
+            <marker date="1493661009931" expanded="true" signature="830:852" ph="Numer katalogowy" />
+            <marker date="1493661009931" expanded="true" signature="1059:1071" ph="Nazwa" />
+            <marker date="1493661009931" expanded="true" signature="1380:1391" ph="Opis" />
+            <marker date="1493661009931" expanded="true" signature="1596:1609" ph="Poziom" />
+            <marker date="1493661009931" expanded="true" signature="1811:1822" ph="Atak" />
+            <marker date="1493661009931" expanded="true" signature="2024:2031" ph="currency" />
+            <marker date="1493661009931" expanded="true" signature="2024:2037" ph="Obrona" />
+            <marker date="1493661009931" expanded="true" signature="2244:2258" ph="Atrybut" />
+            <marker date="1493661009931" expanded="true" signature="2611:2629" ph="Typ potwora" />
+            <marker date="1493661009931" expanded="true" signature="2991:3007" ph="Typ karty" />
+            <marker date="1493661009931" expanded="true" signature="3364:3381" ph="Cena nabycia" />
+            <marker date="1493661009931" expanded="true" signature="3364:3382" ph="Cena nabycia" />
+            <marker date="1493661009931" expanded="true" signature="3603:3621" ph="Data nabycia" />
+            <marker date="1493661009931" expanded="true" signature="3682:3693" ph="yyyy-MM-dd" />
+            <marker date="1493661009931" expanded="true" signature="3907:3920" ph="Status" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -944,8 +893,8 @@
         <state relative-caret-position="126">
           <caret line="7" column="13" lean-forward="false" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
           <folding>
-            <element signature="e#1826#1827#0" expanded="true" />
-            <element signature="e#1861#1862#0" expanded="true" />
+            <element signature="e#1826#1827#0" expanded="false" />
+            <element signature="e#1861#1862#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1003,14 +952,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="18">
-          <caret line="8" column="29" lean-forward="false" selection-start-line="8" selection-start-column="29" selection-end-line="8" selection-end-column="29" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1089,9 +1030,9 @@
         <state relative-caret-position="288">
           <caret line="16" column="0" lean-forward="true" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
           <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#466#467#0" expanded="true" />
-            <element signature="e#489#490#0" expanded="true" />
+            <element signature="imports" expanded="false" />
+            <element signature="e#466#467#0" expanded="false" />
+            <element signature="e#489#490#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1138,8 +1079,8 @@
         <state relative-caret-position="432">
           <caret line="37" column="132" lean-forward="false" selection-start-line="37" selection-start-column="132" selection-end-line="37" selection-end-column="132" />
           <folding>
-            <element signature="e#871#872#0" expanded="true" />
-            <element signature="e#919#920#0" expanded="true" />
+            <element signature="e#871#872#0" expanded="false" />
+            <element signature="e#919#920#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1157,8 +1098,8 @@
         <state relative-caret-position="720">
           <caret line="65" column="28" lean-forward="false" selection-start-line="65" selection-start-column="28" selection-end-line="65" selection-end-column="28" />
           <folding>
-            <element signature="e#1826#1827#0" expanded="true" />
-            <element signature="e#1861#1862#0" expanded="true" />
+            <element signature="e#1826#1827#0" expanded="false" />
+            <element signature="e#1861#1862#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1173,6 +1114,20 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="72">
           <caret line="4" column="25" lean-forward="false" selection-start-line="4" selection-start-column="25" selection-end-line="4" selection-end-column="25" />
+          <folding>
+            <marker date="1493661009943" expanded="true" signature="518:540" ph="Numer katalogowy" />
+            <marker date="1493661009943" expanded="true" signature="592:604" ph="Nazwa" />
+            <marker date="1493661009943" expanded="true" signature="645:656" ph="Opis" />
+            <marker date="1493661009943" expanded="true" signature="696:709" ph="Poziom" />
+            <marker date="1493661009943" expanded="true" signature="751:762" ph="Atak" />
+            <marker date="1493661009943" expanded="true" signature="802:815" ph="Obrona" />
+            <marker date="1493661009943" expanded="true" signature="857:871" ph="Atrybut" />
+            <marker date="1493661009943" expanded="true" signature="914:932" ph="Typ potwora" />
+            <marker date="1493661009943" expanded="true" signature="979:995" ph="Typ karty" />
+            <marker date="1493661009943" expanded="true" signature="1040:1058" ph="Cena nabycia" />
+            <marker date="1493661009943" expanded="true" signature="1106:1124" ph="Data nabycia" />
+            <marker date="1493661009943" expanded="true" signature="1172:1185" ph="Status" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1187,6 +1142,24 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="294">
           <caret line="97" column="6" lean-forward="true" selection-start-line="97" selection-start-column="6" selection-end-line="97" selection-end-column="6" />
+          <folding>
+            <marker date="1493661009931" expanded="true" signature="520:537" ph="Dane karty" />
+            <marker date="1493661009931" expanded="true" signature="830:852" ph="Numer katalogowy" />
+            <marker date="1493661009931" expanded="true" signature="1059:1071" ph="Nazwa" />
+            <marker date="1493661009931" expanded="true" signature="1380:1391" ph="Opis" />
+            <marker date="1493661009931" expanded="true" signature="1596:1609" ph="Poziom" />
+            <marker date="1493661009931" expanded="true" signature="1811:1822" ph="Atak" />
+            <marker date="1493661009931" expanded="true" signature="2024:2031" ph="currency" />
+            <marker date="1493661009931" expanded="true" signature="2024:2037" ph="Obrona" />
+            <marker date="1493661009931" expanded="true" signature="2244:2258" ph="Atrybut" />
+            <marker date="1493661009931" expanded="true" signature="2611:2629" ph="Typ potwora" />
+            <marker date="1493661009931" expanded="true" signature="2991:3007" ph="Typ karty" />
+            <marker date="1493661009931" expanded="true" signature="3364:3381" ph="Cena nabycia" />
+            <marker date="1493661009931" expanded="true" signature="3364:3382" ph="Cena nabycia" />
+            <marker date="1493661009931" expanded="true" signature="3603:3621" ph="Data nabycia" />
+            <marker date="1493661009931" expanded="true" signature="3682:3693" ph="yyyy-MM-dd" />
+            <marker date="1493661009931" expanded="true" signature="3907:3920" ph="Status" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1194,25 +1167,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="144">
           <caret line="12" column="24" lean-forward="false" selection-start-line="12" selection-start-column="24" selection-end-line="12" selection-end-column="24" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/wojciech/janowski/klaser/repositories/CardsRepositoryImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="414">
-          <caret line="31" column="13" lean-forward="false" selection-start-line="31" selection-start-column="13" selection-end-line="31" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/messages.properties">
-      <provider editor-type-id="ResourceBundle">
-        <state />
-      </provider>
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="450">
-          <caret line="25" column="36" lean-forward="false" selection-start-line="25" selection-start-column="36" selection-end-line="25" selection-end-column="36" />
           <folding />
         </state>
       </provider>
@@ -1225,9 +1179,43 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/templates/layout.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="18">
+          <caret line="10" column="0" lean-forward="false" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+          <folding>
+            <element signature="n#style#0;n#h2#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="e#1612#1618#0" expanded="true" />
+            <marker date="1493663201204" expanded="true" signature="115:132" ph="Klaser Monet" />
+            <marker date="1493663201204" expanded="true" signature="1188:1198" ph="Lista Monet" />
+            <marker date="1493663201204" expanded="true" signature="1377:1394" ph="Klaser Monet" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/wojciech/janowski/klaser/repositories/CardsRepositoryImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="18">
+          <caret line="31" column="13" lean-forward="false" selection-start-line="31" selection-start-column="13" selection-end-line="31" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/messages.properties">
+      <provider editor-type-id="ResourceBundle">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="396">
+          <caret line="25" column="36" lean-forward="false" selection-start-line="25" selection-start-column="36" selection-end-line="25" selection-end-column="36" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/templates/cards.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="702">
+        <state relative-caret-position="270">
           <caret line="39" column="48" lean-forward="false" selection-start-line="39" selection-start-column="48" selection-end-line="39" selection-end-column="48" />
           <folding>
             <marker date="1493661009935" expanded="true" signature="477:499" ph="Numer katalogowy" />
@@ -1249,18 +1237,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/templates/layout.html">
+    <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="18">
-          <caret line="10" column="0" lean-forward="false" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
-          <folding>
-            <element signature="n#style#0;n#h2#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#img#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="e#1612#1618#0" expanded="true" />
-            <marker date="1493663201204" expanded="true" signature="115:132" ph="Klaser Monet" />
-            <marker date="1493663201204" expanded="true" signature="1188:1198" ph="Lista Monet" />
-            <marker date="1493663201204" expanded="true" signature="1377:1394" ph="Klaser Monet" />
-          </folding>
+        <state relative-caret-position="613">
+          <caret line="122" column="27" lean-forward="false" selection-start-line="122" selection-start-column="27" selection-end-line="122" selection-end-column="27" />
+          <folding />
         </state>
       </provider>
     </entry>
